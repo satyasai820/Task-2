@@ -1,0 +1,138 @@
+
+body {
+    background-color: rgb(208, 244, 244);
+    
+}
+.ex0 {
+    border: 3px solid black;
+    border-radius: 20px;  
+    
+    padding: 30px 10px 20px 10px;
+    background-image:url("../images/img.png.jpg") ;   
+}
+.h {
+    color: red;
+    text-align: center;
+    padding: 25px 0;
+    background-color: beige;
+    margin:10px; 
+}
+
+.h1 h3{
+  font-weight: bold;
+  line-height: 2px;
+}
+.ex1 {
+    
+    padding: 10px;
+   color: goldenrod; 
+   padding-left: 30px;
+   margin-left: 300px;
+   
+}
+.ex2{
+    background-color: aliceblue;
+ 
+    padding: 20px;
+    margin: 10px ;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+
+}
+ .ex3 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 300px;
+ }
+ .ex3 p{
+  text-indent: 50px;
+ }
+ .ex4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+ }
+ .ex4 a{
+    color: aliceblue;
+   margin-inline-start: 20px;
+   margin-top: 30px;
+   padding-top: 16px;
+   
+   
+ }
+ h1{
+    animation-name: example;
+    animation-duration: 3s;
+    
+ }
+ @keyframes example {
+     
+     25%  {color:yellow; left:200px; top:0px;}
+    
+ }
+
+ 
+.h1 {
+    color: red;
+    font-size: 2.26rem;
+    text-align: center;
+    justify-content: center;
+    padding: 25px 0;
+    background-color: beige;
+    margin:10px;
+    
+}
+.mid{
+  font-size: 40px;
+  color: aliceblue;
+  bottom: 0%;
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: red;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+
+.move {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(40, end) forwards;
+padding-left: 300px;
+  
+}
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 200px;
+  }
+  100% {
+    width: 31%;
+  }
+}
